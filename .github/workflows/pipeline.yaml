@@ -214,7 +214,7 @@ jobs:
           role-skip-session-tagging: true
 
       - name: Run integration tests
-      - run: |
+        run: |
           # trigger the integration tests here
           echo 'Running integration tests'
           # Install all dependencies (including dependencies for running tests)
